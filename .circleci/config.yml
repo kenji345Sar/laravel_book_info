@@ -14,7 +14,8 @@ jobs:
           - MAIL_DRIVER=log
           - APP_ENV=testing
           - APP_URL=http://localhost
-          - APP_KEY=base64:isMYuRWKmB5CUL6UKvrh6R0flMkh4qtN5sA9kMGwPow=
+          - APP_KEY=base64:dUfosQX8gFgwqCBvejp1Gd7NwilX7yGdAVrFYq+d9UA=
+
 
       - image: circleci/mysql:8.0-ram
         command: |
